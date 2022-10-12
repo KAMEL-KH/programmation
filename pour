@@ -1,0 +1,10 @@
+nombre=input("entrer un nombre")
+print("les dix nombres suivants sont : ")
+for i in range (10) :
+    print(int(nombre)+i)
+
+
+nombre=input("entrer un nombre")
+print("la somme des entiers est : ")
+for i in range (n) :
+     print(nombre)+i 

@@ -1,0 +1,86 @@
+# som=0
+# nombre=input("entrer un nombre")
+
+# print("la somme des entiers est : ")
+# for i in range (1,int(nombre) + 1):
+#     som=som+i
+#     print (i ,"+")
+# print(som)
+
+
+
+# 
+
+# 
+# score_pret1 = int(input("Entrez le score du pretendant 1"))
+# score_pret2 = int(input("Entrez le score du pretendant 2"))
+# score_pret3 = int(input("Entrez le score du pretendant 3"))
+# score_pret4 = int(input("Entrez le score du pretendant 4"))
+
+# if(score_pret1 > 50):
+#     print("Elu au premier tour")
+# elif (score_pret2 > 50 or score_pret3 > 50 or score_pret4 > 50 or not score_pret1 >= 12.5):
+#     print("Battu, éliminé, sorti !!!")
+# elif (score_pret1 >= score_pret2 or score_pret1 >= score_pret3  or score_pret1 >= score_pret4):
+#     print("Ballotage favorable")
+# else:
+#     print("Ballotage Defavorable")
+
+
+# a
+
+# annee_permis = int(input("Entrez le nombre d'années de permis"))
+# accidents = int(input("Entrez le nombre d'accidents"))
+# annee_assurance = int(input("Entrez le nombre d'années d'assurance:"))
+
+# if (not age >= 25 and not annee_permis >= 2):
+#     if (accidents == 0):
+#         status = "Rouge"
+#     else:
+#         status = "Refusé"
+# elif ((not age >= 25 and annee_permis >= 2) or (age >= 25 and not annee_permis >= 2)):
+#     if (accidents == 0):
+#         status = "Orange"
+#     elif (accidents == 1):
+#         status = "Rouge"
+#     else:
+#         status = "Refusé"
+# else:
+#     if (accidents == 0):
+#         status = "Vert"
+#     elif (accidents == 1):
+#         status = "Orange"
+#     elif (accidents == 2):
+#         status = "Rouge"
+#     else:
+#         status = "Refusé"
+
+# if(annee_assurance >= 5):
+#      if (status == "Rouge"):age = int(input("Entrez l'age"))
+#          status = "Orange"
+#      elif (status == "Orange"):
+#          status = "Vert"
+#      elif (status == "Vert"):
+#          status = "Bleu"
+# print("Votre situation est ", status)
+
+
+def calcul_nombreentiers(number):
+   s = 0 
+   for i in range (1, number+1):
+      print(s + i)
+n=int(input("Valeur de n"))
+calcul_nombreentiers(n)
+
+
+
+
+
+
+
+
+
+
+
+
+

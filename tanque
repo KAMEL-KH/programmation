@@ -1,0 +1,14 @@
+# Nb =int(input("Entrez un nombre entre 1 et 3 "))
+# while Nb < 1 or Nb > 3:
+#     Nb = int(input("Saisie erronée. Entrez un nombre entre 1 et 3 "))
+
+# Nb =int(input("Entrez un nombre entre 10 et 20 "))
+# while Nb < 10 or Nb > 20:
+#     if Nb < 10:
+#         print("Plus grand")
+#     if Nb > 20:
+#         print("Plus petit")
+#     Nb = int(input("Saisie erronée. Entrez un nombre entre 10 et 20"))
+# print("bravo")
+
+
